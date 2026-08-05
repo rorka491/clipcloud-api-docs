@@ -1,0 +1,22 @@
+info:
+  name: adminLogin
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: "{{LOCAL_BASE_URL}}/auth/login"
+  body:
+    type: json
+    data: |-
+      {
+        "username": "rodion",
+        "password": "12345"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

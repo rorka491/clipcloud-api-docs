@@ -1,0 +1,29 @@
+info:
+  name: eventSubscribe
+  type: http
+  seq: 2
+
+http:
+  method: GET
+  url: "{{BASE_URL}}/events"
+  headers:
+    - name: Accept
+      value: text/event-stream
+    - name: X-Session-id
+      value: "{{session_id}}"
+      disabled: true
+    - name: Last-Event-ID
+      value: 1785256273757-0
+      disabled: true
+    - name: X-Session-id
+      value: "{{to_pair_session_id}}"
+      disabled: true
+  auth:
+    type: bearer
+    token: "{{access_token}}"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

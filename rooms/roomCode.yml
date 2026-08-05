@@ -1,0 +1,21 @@
+info:
+  name: roomCode
+  type: http
+  seq: 7
+
+http:
+  method: GET
+  url: "{{BASE_URL}}/rooms/code"
+  headers:
+    - name: X-Session-id
+      value: "{{session_id}}"
+      disabled: true
+  auth:
+    type: bearer
+    token: "{{access_token}}"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

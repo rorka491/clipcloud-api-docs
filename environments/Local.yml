@@ -1,0 +1,14 @@
+name: Local
+variables:
+  - name: BASE_URL
+    value: http://localhost/api/v1
+  - name: to_pair_session_id
+    value: 7d8a1f95-be04-4adf-9390-000fdb079a0c
+  - name: admin_access_token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI2MzQ2MWJjOC04ZDNmLTQ0YTgtYTJmMS0yNDNjNzk0MDQyNTUiLCJzdWIiOiIxIiwidHlwZSI6ImFjY2VzcyIsImV4cCI6MTc4NTg1MjUyNywicm9sZSI6ImFkbWluIn0.GCigg9y_Ym2FZeb8QDvSjjxjpi6Htpgzr-Pb7bxyR7BRJWIESpq0c02bPcadjKu41-laoqDMlUA-R2EXj4GCrdEghlBtwgkqX32eF3jR6BL_yxuCEw_lOgsah9aRl9GM-WAWPV69P7qL2WU5G5KvTgXSpx2AhJ5mrMVZeGSqc6EnveYuQ5Wb6YAYjHP2DTZzH8Xl6hnbrHep8JuIkVuJOw2Lu-pjj4vjinw8UJUzRFqpL5vVeI3Q0NeS4OoG3ykvIAg2gJQC2g6f6mogXCqxDyLANaAyNZK_QS6DEj-ZyoMyPhU_Tp9dpcTNCOusHSBO7Ib_vPHVZg2A_ZP4pIBppg
+  - name: session_id
+    value: eab66d19-5ef4-4164-a314-3c1d51c920a9
+  - name: access_token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoiZWFiNjZkMTktNWVmNC00MTY0LWEzMTQtM2MxZDUxYzkyMGE5IiwidXNlcl9pZCI6Ik5vbmUiLCJqdGkiOiJiNDFlZmU3Yi1mZWEwLTRkNzEtODc2Zi1kMTZlNGVlMjhkYTgiLCJ0eXBlIjoiYWNjZXNzIn0.CUJE6S6XHNPjNiLtg9zOQ5K-yNbww6VE_zfIZZN8YZ6FwxvfFZYZBJmdl8PzS3s1CWvDLgzEDEeOivFoOypw5CMIaGaWyTJQG7UYUwuUnE24HrkPrzhdIIaiYgKGSHrVGHRAExKNBgVMLxAqp1ZkEIK3USt-6GDT20h6xSzpCzGhEtYwOFrV4_mPzyBPY6hKS146ncDic2jDNbvfRt8HndImtppiPtznHdH-AD7WPK5bSGgwk-KuXlGbwDTOVZE5CT6kkjkELaZTSGB2VNRkNpEyov-QDfL8C8hVz04yRl7-jgqMa9Ufu2lv2YzwvKqW7ZAw07JYSTO4csyT-J2W_g
+  - name: room_code
+    value: GHOMS

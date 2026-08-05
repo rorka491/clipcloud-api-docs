@@ -1,0 +1,17 @@
+info:
+  name: joinRoom
+  type: http
+  seq: 4
+
+http:
+  method: POST
+  url: "{{BASE_URL}}/rooms/{{room_code}}/join"
+  headers:
+    - name: X-Session-id
+      value: "{{session_id}}"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

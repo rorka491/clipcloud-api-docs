@@ -1,0 +1,17 @@
+info:
+  name: quitRoom
+  type: http
+  seq: 3
+
+http:
+  method: POST
+  url: "{{BASE_URL}}/rooms/quit"
+  headers:
+    - name: X-Session-id
+      value: "{{session_id}}"
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

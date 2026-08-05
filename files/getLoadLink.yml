@@ -1,0 +1,29 @@
+info:
+  name: getLoadLink
+  type: http
+  seq: 4
+
+http:
+  method: GET
+  url: "{{BASE_URL}}/files/load?file_key={{file_key}}"
+  headers:
+    - name: X-Session-id
+      value: "{{session_id}}"
+  params:
+    - name: file_key
+      value: "{{file_key}}"
+      type: query
+
+runtime:
+  scripts:
+    - type: after-response
+      code: |-
+        const body = res.getBody();
+
+        bru.setEnvVar("load_file_url", body.url);
+
+settings:
+  encodeUrl: false
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

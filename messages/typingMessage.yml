@@ -1,0 +1,22 @@
+info:
+  name: typingMessage
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: "{{BASE_URL}}/messages/typing"
+  headers:
+    - name: Content-Type
+      value: application/json
+    - name: X-Session-id
+      value: "{{session_id}}"
+    - name: X-Session-id
+      value: dccdc3bf-7e10-447d-99d9-4bb39f0d4522
+      disabled: true
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

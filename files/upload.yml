@@ -1,0 +1,25 @@
+info:
+  name: upload
+  type: http
+  seq: 2
+
+http:
+  method: PUT
+  url: "{{file_url}}"
+  headers:
+    - name: Content-Type
+      value: image/jpeg
+    - name: ""
+      value: ""
+  body:
+    type: file
+    data:
+      - filePath: /Users/rodion/Documents/clipcloud/логотип.jpeg
+        contentType: image/jpeg
+        selected: true
+
+settings:
+  encodeUrl: false
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

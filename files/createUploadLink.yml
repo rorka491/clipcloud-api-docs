@@ -1,0 +1,30 @@
+info:
+  name: createUploadLink
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: "{{BASE_URL}}/files/upload?filename=some_file"
+  headers:
+    - name: X-Session-id
+      value: "{{session_id}}"
+  params:
+    - name: filename
+      value: some_file
+      type: query
+
+runtime:
+  scripts:
+    - type: after-response
+      code: |-
+        const body = res.getBody();
+
+        bru.setEnvVar("file_key", body.key);
+        bru.setEnvVar("file_url", body.url);
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

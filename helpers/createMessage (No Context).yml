@@ -1,0 +1,25 @@
+info:
+  name: createMessage (No Context)
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: "{{BASE_URL}}/messages"
+  headers:
+    - name: Content-Type
+      value: application/json
+    - name: X-Session-id
+      value: "{{session_id}}"
+  body:
+    type: json
+    data: |-
+      {
+        "text": "efewfefwekfwelkfweklfwefwefwkfjfkweflkwefjwekfjewkfjwkfwekfwekfjklfflwefjwlekjf"
+      }
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

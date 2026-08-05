@@ -1,0 +1,26 @@
+info:
+  name: kickRoomMember
+  type: http
+  seq: 8
+
+http:
+  method: GET
+  url: "{{BASE_URL}}/rooms/members"
+  headers:
+    - name: X-Session-id
+      value: "{{session_id}}"
+      disabled: true
+
+runtime:
+  scripts:
+    - type: after-response
+      code: |-
+        const body = res.getBody();
+
+        bru.setEnvVar("room_code", body.room_code);
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

@@ -1,0 +1,25 @@
+info:
+  name: pairSession
+  type: http
+  seq: 4
+
+http:
+  method: POST
+  url: "{{BASE_URL}}/sessions/pair?other_session=bd6bad1b-c195-422c-9ff7-12a8481059d5"
+  headers:
+    - name: X-Session-id
+      value: "{{session_id}}"
+  params:
+    - name: other_session
+      value: bd6bad1b-c195-422c-9ff7-12a8481059d5
+      type: query
+    - name: username
+      value: dima
+      type: query
+      disabled: true
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

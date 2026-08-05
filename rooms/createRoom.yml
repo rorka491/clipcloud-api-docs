@@ -1,0 +1,25 @@
+info:
+  name: createRoom
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: "{{BASE_URL}}/rooms"
+  headers:
+    - name: X-Session-id
+      value: "{{session_id}}"
+
+runtime:
+  scripts:
+    - type: after-response
+      code: |-
+        const body = res.getBody();
+
+        bru.setEnvVar("room_code", body.room_code);
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
