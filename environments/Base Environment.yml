@@ -7,12 +7,14 @@ variables:
   - name: S3_BASE_URL
     value: http://localhost:9000
   - name: file_key
-    value: rooms/8284ef28-5898-4dde-a087-f2177d9bb4e8/files/adc9bd92-fb57-4129-8806-3b5c9800c222
+    value: rooms/9f1f9ee5-51dc-4412-af60-387d53aebd4b/files/d66a3def-699c-413e-b58b-2ec273516ceb
   - name: file_url
-    value: http://localhost:9000/uploads/rooms/8284ef28-5898-4dde-a087-f2177d9bb4e8/files/adc9bd92-fb57-4129-8806-3b5c9800c222?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20260718%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260718T135532Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=9f6900abed46c577e5528dcbcac7da94f4642b7595f65d1bc77bc72cc3a31670
+    value: https://clip-cloud.s3.ru-3.storage.selcloud.ru/rooms/9f1f9ee5-51dc-4412-af60-387d53aebd4b/files/d66a3def-699c-413e-b58b-2ec273516ceb?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ea20c533953f416693b919cac94b859f%2F20260810%2Fru-3%2Fs3%2Faws4_request&X-Amz-Date=20260810T035924Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=f4252ad7bc43bc95375bbbb5525d8637b2de6caff19f9e6456cb7c3e903cc1b6
   - name: load_file_url
     value: http://localhost:9000/uploads/rooms/8284ef28-5898-4dde-a087-f2177d9bb4e8/files/adc9bd92-fb57-4129-8806-3b5c9800c222?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20260718%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260718T140632Z&X-Amz-Expires=600&X-Amz-SignedHeaders=host&X-Amz-Signature=e1aa84eafe0f2775ac70ccb2efb6c1f1f9e434f7bc4e78561b18d079c010f0af
   - name: LOCAL_BASE_URL
     value: http://localhost/api/v1
   - name: room_code
-    value: ILWB7
+    value: 62ZPL
+  - name: session_id
+    value: 4c05bc37-92e2-48ac-b05e-76b13daa772b

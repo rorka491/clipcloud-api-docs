@@ -4,12 +4,16 @@ info:
   seq: 8
 
 http:
-  method: GET
-  url: "{{BASE_URL}}/rooms/members"
+  method: POST
+  url: "{{BASE_URL}}/rooms/members/kick?session-id="
   headers:
     - name: X-Session-id
       value: "{{session_id}}"
       disabled: true
+  params:
+    - name: session-id
+      value: ""
+      type: query
 
 runtime:
   scripts:
