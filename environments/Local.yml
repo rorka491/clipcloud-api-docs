@@ -22,5 +22,3 @@ variables:
     value: https://clip-cloud.s3.ru-3.storage.selcloud.ru/rooms/6c3c2561-44f1-4dc4-8074-4ebdc7e7b5dd/files/db927a31-3bc1-44bc-95a7-53ee65b4ce81?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ea20c533953f416693b919cac94b859f%2F20260810%2Fru-3%2Fs3%2Faws4_request&X-Amz-Date=20260810T125124Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=ccfc889943d663d7769a53628c05ab3982e9c93a7c274e7a807e44cd106b94f5
   - name: message_id
     value: c8bfa32c-b224-46b1-8c21-d1a8aa2363df
-  - name: room_code
-    value: K8BAU

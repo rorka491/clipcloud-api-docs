@@ -18,6 +18,14 @@ http:
         "text": "efewfefwekfwelkfweklfwefwefwkfjfkweflkwefjwekfjewkfjwkfwekfwekfjklfflwefjwlekjf"
       }
 
+runtime:
+  scripts:
+    - type: after-response
+      code: |-
+        const body = res.getBody();
+
+        bru.setEnvVar("message_id", body.id);
+
 settings:
   encodeUrl: true
   timeout: 0

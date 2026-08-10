@@ -4,8 +4,8 @@ info:
   seq: 4
 
 http:
-  method: POST
-  url: "{{BASE_URL}}/messages"
+  method: DELETE
+  url: "{{BASE_URL}}/messages/{{message_id}}"
   headers:
     - name: Content-Type
       value: application/json
@@ -18,15 +18,6 @@ http:
         "text": "test",
         "file_id": "{{file_id}}"
       }
-
-runtime:
-  scripts:
-    - type: after-response
-      code: |-
-        const body = res.getBody();
-
-        bru.setEnvVar("load_file_id", body.file.id);
-        bru.setEnvVar("message_id", body.id);
 
 settings:
   encodeUrl: true
