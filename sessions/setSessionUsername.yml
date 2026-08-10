@@ -5,10 +5,14 @@ info:
 
 http:
   method: POST
-  url: "{{BASE_URL}}/sessions/set/rodion"
+  url: "{{BASE_URL}}/sessions/set?username=rodion"
   headers:
     - name: X-Session-id
       value: "{{session_id}}"
+  params:
+    - name: username
+      value: rodion
+      type: query
 
 settings:
   encodeUrl: true

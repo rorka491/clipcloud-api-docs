@@ -9,7 +9,7 @@ variables:
   - name: access_token
     value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoiOWQwNjYxZjEtN2UwZS00MjY5LWI4ZDctY2I1MTcwMTM1ZjE1IiwidXNlcl9pZCI6Ik5vbmUiLCJqdGkiOiJlYzY0OWI1YS0wM2RkLTQ2NGUtYTNhNS0xZGI4Nzk0ZDE5MzYiLCJ0eXBlIjoiYWNjZXNzIn0.JC88SWdPQbm9twI_8m156v6Ee9xNrg7kLESzVZjn19eFLAW17icKp_SCtTHAes5TuooEdc6mmdmFt3C9LQTFiDQyaKw3PMD4HH-lrTTobbvDj2etR7IkZIRYmUdKNMLMIvRFrNqZ_7DHzxHPl3nJ5t6yAvd0_j9wReDL8IbuIegPo_S9IZ7TAOyIY83b64uoco3395Y4tohAm_B15nP5k_jUmL6SgwVs6n5Zj3qX2EZPYg9zjVSpvn4noXJwkIKZ1GQ0U33ndROwZ7mKeajich56Kv8tH8bNlg5BiUMxUaPjeneQizgA6gNyLFBmKIzLMT_hU7G73YJK2-g0RNLpjA
   - name: session_id
-    value: 9d0661f1-7e0e-4269-b8d7-cb5170135f15
+    value: 7b15c0b3-6ced-4a5f-af71-f2241c353170
   - name: file_url
     value: https://clip-cloud.s3.ru-3.storage.selcloud.ru/rooms/05edfda1-bc25-4c04-a629-0bd6e7a52259/files/3f384401-d2b4-4c26-b328-eadb916d0865?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ea20c533953f416693b919cac94b859f%2F20260810%2Fru-3%2Fs3%2Faws4_request&X-Amz-Date=20260810T090858Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=8c88f8ebafe4094d61a80b985c110d095435edbe4c3ea653f4037ace9877ac78
   - name: file_id
@@ -21,4 +21,6 @@ variables:
   - name: upload_url
     value: https://clip-cloud.s3.ru-3.storage.selcloud.ru/rooms/6c3c2561-44f1-4dc4-8074-4ebdc7e7b5dd/files/db927a31-3bc1-44bc-95a7-53ee65b4ce81?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ea20c533953f416693b919cac94b859f%2F20260810%2Fru-3%2Fs3%2Faws4_request&X-Amz-Date=20260810T125124Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=ccfc889943d663d7769a53628c05ab3982e9c93a7c274e7a807e44cd106b94f5
   - name: message_id
-    value: c8bfa32c-b224-46b1-8c21-d1a8aa2363df
+    value: c6b14dce-61e2-405c-ab3f-88af5a30a2d6
+  - name: room_code
+    value: UFAJB
