@@ -1,4 +1,4 @@
-name: Remote
+name: Dev
 variables:
   - name: BASE_URL
     value: https://clipcloud.cloud.nstu.ru/api/v1
@@ -16,7 +16,5 @@ variables:
     value: http://localhost/api/v1
   - name: room_code
     value: FLV2S
-  - name: session_id
-    value: 085bef5b-11cf-4823-b6f4-5f914e07ba4c
   - name: message_id
     value: ec790857-c234-4ce2-a1fc-9f33830eabc3
