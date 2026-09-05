@@ -1,11 +1,9 @@
-name: Remote Prod
+name: Prod
 variables:
   - name: BASE_URL
     value: https://api.clipcloud.site/api/v1
-  - name: session_id
-    value: 09058970-3ea1-4d0c-b77d-bb2ada7cafb3
   - name: message_id
-    value: 6cc15591-fe52-4792-81e1-b7fcce75b08c
+    value: 67996b36-1b1d-4fe9-ab91-f2c2f6f3f639
   - name: file_url
     value: https://clip-cloud.s3.ru-3.storage.selcloud.ru/rooms/6f013e5c-3765-45c6-ae0f-53ed8d4aaf13/files/7512a5d2-0395-4558-b373-09faf7d44281?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ea20c533953f416693b919cac94b859f%2F20260813%2Fru-3%2Fs3%2Faws4_request&X-Amz-Date=20260813T174640Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=815057f34a376298fd6277deb6714fb2ac8cfb8bf3b0d9d9874dcbed04e125b9
   - name: file_id
@@ -15,4 +13,6 @@ variables:
   - name: load_file_id
     value: 5dde0a78-9316-4413-8a4b-39ce40200eac
   - name: room_code
-    value: BSFLH
+    value: JB6L5
+  - name: session_id
+    value: 03daf61b-08df-4ee9-95c4-0e0285f5eec0
