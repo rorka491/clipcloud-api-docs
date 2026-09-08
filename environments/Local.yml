@@ -1,7 +1,7 @@
 name: Local
 variables:
   - name: BASE_URL
-    value: http://localhost/api/v1
+    value: http://localhost:8001/api/v1
   - name: to_pair_session_id
     value: 7d8a1f95-be04-4adf-9390-000fdb079a0c
   - name: admin_access_token
@@ -18,9 +18,9 @@ variables:
     value: https://clip-cloud.s3.ru-3.storage.selcloud.ru/7ea71ff5-8bd1-4adf-88c6-df9d496b1227?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ea20c533953f416693b919cac94b859f%2F20260810%2Fru-3%2Fs3%2Faws4_request&X-Amz-Date=20260810T090952Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=288c343d6dcaf08e3f882f329cd2b6cf37d5969b968f4f54e3318d80393f9795
   - name: upload_url
     value: https://clip-cloud.s3.ru-3.storage.selcloud.ru/rooms/6c3c2561-44f1-4dc4-8074-4ebdc7e7b5dd/files/db927a31-3bc1-44bc-95a7-53ee65b4ce81?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ea20c533953f416693b919cac94b859f%2F20260810%2Fru-3%2Fs3%2Faws4_request&X-Amz-Date=20260810T125124Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=ccfc889943d663d7769a53628c05ab3982e9c93a7c274e7a807e44cd106b94f5
-  - name: message_id
-    value: 480c8ef2-9794-44f4-8809-3300462ccc25
-  - name: session_id
-    value: 523ad068-a58e-4f22-bbd0-01f3ed472f3f
   - name: room_code
-    value: 9EZFB
+    value: YGH8C
+  - name: session_id
+    value: 1d8c62ea-2a12-424e-a125-ba0e1ba1560b
+  - name: message_id
+    value: 1f8ee780-22b0-434b-ba07-387407a3b25a

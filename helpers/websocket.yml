@@ -1,0 +1,23 @@
+info:
+  name: websocket
+  type: websocket
+  seq: 6
+
+websocket:
+  url: "{{WS_BASE_URL}}/ws"
+  message:
+    - title: message 1
+      selected: false
+      message:
+        type: json
+        data: ""
+  auth: inherit
+
+runtime:
+  variables:
+    - name: WS_BASE_URL
+      value: ws://localhost:8001/api/v1
+
+settings:
+  timeout: 0
+  keepAliveInterval: 0
