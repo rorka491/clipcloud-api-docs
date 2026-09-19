@@ -12,10 +12,33 @@ runtime:
     - type: after-response
       code: |-
         const body = res.getBody();
+
         bru.setEnvVar("session_id", body.id);
+
+        const headers = res.getHeaders();
+        const cookies = headers["set-cookie"];
+
+        if (!cookies) {
+          throw new Error("Set-Cookie header not found");
+        }
+
+        const cookieHeader = Array.isArray(cookies)
+          ? cookies.join("; ")
+          : cookies;
+
+        const match = cookieHeader.match(/(?:^|;\s*)access_token=([^;]+)/);
+
+        if (!match) {
+          throw new Error("access_token not found in Set-Cookie");
+        }
+
+        bru.setEnvVar("access_token", match[1]);
+
+        console.log("access_token saved");
 
 settings:
   encodeUrl: true
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true

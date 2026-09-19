@@ -2,21 +2,34 @@ name: Dev
 variables:
   - name: BASE_URL
     value: https://clipcloud.cloud.nstu.ru/api/v1
+    description: ""
   - name: WS_BASE_URL
     value: ws://localhost:8001/api/v1
+    description: ""
   - name: S3_BASE_URL
     value: http://localhost:9000
+    description: ""
   - name: file_key
     value: rooms/9f1f9ee5-51dc-4412-af60-387d53aebd4b/files/d66a3def-699c-413e-b58b-2ec273516ceb
+    description: ""
   - name: file_url
     value: https://clip-cloud.s3.ru-3.storage.selcloud.ru/rooms/9f1f9ee5-51dc-4412-af60-387d53aebd4b/files/d66a3def-699c-413e-b58b-2ec273516ceb?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ea20c533953f416693b919cac94b859f%2F20260810%2Fru-3%2Fs3%2Faws4_request&X-Amz-Date=20260810T035924Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=f4252ad7bc43bc95375bbbb5525d8637b2de6caff19f9e6456cb7c3e903cc1b6
+    description: ""
   - name: load_file_url
     value: http://localhost:9000/uploads/rooms/8284ef28-5898-4dde-a087-f2177d9bb4e8/files/adc9bd92-fb57-4129-8806-3b5c9800c222?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=admin%2F20260718%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260718T140632Z&X-Amz-Expires=600&X-Amz-SignedHeaders=host&X-Amz-Signature=e1aa84eafe0f2775ac70ccb2efb6c1f1f9e434f7bc4e78561b18d079c010f0af
+    description: ""
   - name: LOCAL_BASE_URL
     value: http://localhost/api/v1
+    description: ""
   - name: room_code
-    value: 8F9DG
+    value: AEBQC
+    description: ""
   - name: message_id
     value: 97293a35-7277-4af8-ad41-884ae7861f01
+    description: ""
   - name: session_id
-    value: f9e9d418-e6be-4dc2-add9-4123276d2ada
+    value: 8ac33e2e-34a3-4057-9b60-31ef3b57bb77
+    description: ""
+  - name: WS_BASE_URL
+    value: ""
+    description: ""

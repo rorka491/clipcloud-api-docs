@@ -5,13 +5,18 @@ info:
 
 http:
   method: GET
-  url: "{{BASE_URL}}/messages/list"
+  url: "{{BASE_URL}}/messages/list?after=eadf9c41-7996-4b00-ad2c-86687078c29d"
   headers:
     - name: X-Session-id
       value: "{{session_id}}"
+  params:
+    - name: after
+      value: eadf9c41-7996-4b00-ad2c-86687078c29d
+      type: query
 
 settings:
   encodeUrl: true
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true
