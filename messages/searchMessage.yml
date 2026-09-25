@@ -5,10 +5,10 @@ info:
 
 http:
   method: GET
-  url: "{{BASE_URL}}/messages/search?q=Пока"
+  url: "{{BASE_URL}}/messages/search?q=Мам"
   params:
     - name: q
-      value: Пока
+      value: Мам
       type: query
   auth: inherit
 

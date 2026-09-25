@@ -5,14 +5,14 @@ info:
 
 http:
   method: POST
-  url: "{{BASE_URL}}/rooms/members/kick?session-id="
+  url: "{{BASE_URL}}/rooms/members/kick?session-id=04750625-f8ab-4909-a5c2-935e9b3c0665"
   headers:
     - name: X-Session-id
       value: "{{session_id}}"
       disabled: true
   params:
     - name: session-id
-      value: ""
+      value: 04750625-f8ab-4909-a5c2-935e9b3c0665
       type: query
 
 runtime:
@@ -28,3 +28,4 @@ settings:
   timeout: 0
   followRedirects: true
   maxRedirects: 5
+  forwardAuthorizationHeader: true

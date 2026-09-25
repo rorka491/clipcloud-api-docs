@@ -5,14 +5,10 @@ info:
 
 http:
   method: GET
-  url: "{{BASE_URL}}/messages/list?after=eadf9c41-7996-4b00-ad2c-86687078c29d"
+  url: "{{BASE_URL}}/messages/list"
   headers:
     - name: X-Session-id
       value: "{{session_id}}"
-  params:
-    - name: after
-      value: eadf9c41-7996-4b00-ad2c-86687078c29d
-      type: query
 
 settings:
   encodeUrl: true

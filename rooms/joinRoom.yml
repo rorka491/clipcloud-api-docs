@@ -10,6 +10,11 @@ http:
     - name: X-Session-id
       value: "{{session_id}}"
 
+runtime:
+  variables:
+    - name: room_code
+      value: 3D5NE
+
 settings:
   encodeUrl: true
   timeout: 0

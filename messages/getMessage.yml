@@ -5,7 +5,7 @@ info:
 
 http:
   method: GET
-  url: "{{BASE_URL}}/messages/eadf9c41-7996-4b00-ad2c-86687078c29d?context=3"
+  url: "{{BASE_URL}}/messages/3684b8b5-0a50-4043-9dd1-f57d7301a51a?context=3"
   headers:
     - name: Content-Type
       value: application/json

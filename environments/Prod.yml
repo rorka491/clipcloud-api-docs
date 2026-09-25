@@ -10,11 +10,13 @@ variables:
     value: https://clip-cloud.s3.ru-3.storage.selcloud.ru/rooms/6f013e5c-3765-45c6-ae0f-53ed8d4aaf13/files/7512a5d2-0395-4558-b373-09faf7d44281?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ea20c533953f416693b919cac94b859f%2F20260813%2Fru-3%2Fs3%2Faws4_request&X-Amz-Date=20260813T174653Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=3201b92ad54d5ce50aec7444dd5b0cb25192877155d85af69c4b1b03034ea602
   - name: load_file_id
     value: 5dde0a78-9316-4413-8a4b-39ce40200eac
-  - name: room_code
-    value: DN3Q4
   - name: WS_BASE_URL
     value: wss://api.clipcloud.site/api/v1/ws
   - name: ws_cookie
     value: access_token=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoiYTdkZjhiNGQtOGZkMy00Y2YxLWJkMDItOWE1Zjg5MmUzOWFhIiwidXNlcl9pZCI6Ik5vbmUiLCJqdGkiOiI5NTgyYjcyZi0xYjVkLTQwOTktOGFmNS1mYWVjZTA4ZmUyNGIiLCJ0eXBlIjoiYWNjZXNzIn0.P3hGi7MUfks2OHyuMMFocKOc9jhUPGs_i0mjRzuisMB5U2czzFeIM2Rbrc0YoHXqaJok33iEvbh8tdeUHFA6cxL6K7brmJT14P8wVXQoWOY0jqihahzHNnI6V5DUp54QxdzfZfaGMslVdtpyLKF5c8dHWt4sYt-2rOp4wXr-yi_0SW1Y7YxUcOisJ6NeSRQt7gXv3zBjrNxCxfZepwo4r42G83TBiWTwuuDfl707tROhnFQgxv8OeIAh2RLmdDVLdyOdqj1WEzQT-wiFfNurpKbvRmOEmeO0DycO8HciTAMbxQ1o2CwifRs330Z5WTbAcJug4RBsdgPmZIQol5PWWQ
+  - name: session_id
+    value: f944cea8-0d37-4a1a-af68-93b73e84525d
+  - name: access_token
+    value: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uX2lkIjoiZjk0NGNlYTgtMGQzNy00YTFhLWFmNjgtOTNiNzNlODQ1MjVkIiwidXNlcl9pZCI6Ik5vbmUiLCJqdGkiOiI1YjI0NTY2Mi1hYjJkLTQ3ZmMtOWY5MS1hZDlhZTZiMzQ3YzAiLCJ0eXBlIjoiYWNjZXNzIn0.VaqN9RNB0CXTG_CKQriPGJGwFhK6OfRJq7rDgzIRfV8FGyUc01zabqRLx1FucEd8gaRUMVWn7Y-vR0-YVmFGuGi_0fK2nWWGjxUY-957U-R-lAysYcnOXo0MHfBeLsM8QCMaP_f-iAHL-4sVYdPzbuu2jYkIBvemkLJ806QEGuRRO0-0gIxu2eZyigipNGxFITxbQYpGoGwAHC7HBTBRqxcpBHeZkBNiyHtQlSrCa7-FXSR60ZFelQH8_aBHm6O1HQbcdttrN78i0azeT4QceGWgEfHiaMdHrnzlRG_WtbMbjKQ45-z55z5CKnJB5AR_JB6xT66mLtSVElOAcTzixQ
   - name: message_id
-    value: 86667aff-54d0-4695-b629-afb0a71d7c96
+    value: 0ea46c64-0a29-4aeb-89a1-6a3952aa5e48

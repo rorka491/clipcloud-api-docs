@@ -1,5 +1,5 @@
 info:
-  name: createMessage (No Context)
+  name: createMessageWithoutFile
   type: http
   seq: 2
 
@@ -15,7 +15,7 @@ http:
     type: json
     data: |-
       {
-        "text": "Пока"
+        "text": "Мамуля"
       }
 
 runtime:
